@@ -1,0 +1,95 @@
+@media screen and (max-width:360px)
+{
+    body
+    {
+        margin: 0%;
+        padding: 0%;
+        overflow: hidden;
+    }
+    .container
+    {
+        height: 532px;
+        background-color: #F7F7F7;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top:50px;
+    }
+    .item2
+    {
+        border: 1px solid #EDEDED;
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px;
+        padding-left: 20px;
+        font-size: large;
+        font-weight: 600px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 8px rgb(201, 200, 200);
+        width: 310px;
+        height: 310px;
+        position: absolute;
+        left: 10px;
+        top: 175px;
+    } 
+    .item
+    {   
+        position: relative;
+        left:20px;
+        font-size: large;
+    }
+    .item1
+    {
+        
+        position: absolute;
+        left: 80px;
+        top:52px;
+    }  
+    .nav
+    {
+        
+        font-size:xx-large;
+        font-weight:bolder;
+        padding-left: 10px;
+    }
+    .list
+    {
+        color:#00A5EC;
+    }
+    #nav
+    {
+        font-size: 28px;
+    }
+    .text
+    {
+        color: #00A5EC;
+        font-weight: bold;
+        padding-top: 20px;
+        box-sizing: border-box;
+        display: inline-block;
+        text-decoration: none;
+        font-size: large;
+        margin-left:80px;
+    }
+    .input
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .line
+    {
+        position:relative; 
+        right:20px;
+        opacity: 0.4;
+        width:308px;
+    }
+    .label
+    {
+        text-decoration:line-through;
+        opacity: 0.3;
+    }
+    .label, .label1
+    {
+        font-size: medium;
+    }
+}
